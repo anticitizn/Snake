@@ -49,10 +49,9 @@
             // 
             this.scorePoints.AutoSize = true;
             this.scorePoints.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.scorePoints.Location = new System.Drawing.Point(61, 9);
-            this.scorePoints.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.scorePoints.Location = new System.Drawing.Point(73, 7);
             this.scorePoints.Name = "scorePoints";
-            this.scorePoints.Size = new System.Drawing.Size(45, 20);
+            this.scorePoints.Size = new System.Drawing.Size(56, 25);
             this.scorePoints.TabIndex = 3;
             this.scorePoints.Text = "0000";
             // 
@@ -60,10 +59,10 @@
             // 
             this.restartButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.restartButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.restartButton.Location = new System.Drawing.Point(623, 5);
-            this.restartButton.Margin = new System.Windows.Forms.Padding(2);
+            this.restartButton.Location = new System.Drawing.Point(645, 3);
+            this.restartButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.restartButton.Name = "restartButton";
-            this.restartButton.Size = new System.Drawing.Size(100, 28);
+            this.restartButton.Size = new System.Drawing.Size(91, 30);
             this.restartButton.TabIndex = 1;
             this.restartButton.Text = "Restart";
             this.restartButton.UseVisualStyleBackColor = true;
@@ -73,10 +72,10 @@
             // 
             this.pauseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.pauseButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.pauseButton.Location = new System.Drawing.Point(519, 5);
-            this.pauseButton.Margin = new System.Windows.Forms.Padding(2);
+            this.pauseButton.Location = new System.Drawing.Point(561, 3);
+            this.pauseButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pauseButton.Name = "pauseButton";
-            this.pauseButton.Size = new System.Drawing.Size(100, 28);
+            this.pauseButton.Size = new System.Drawing.Size(78, 30);
             this.pauseButton.TabIndex = 4;
             this.pauseButton.Text = "Pause";
             this.pauseButton.UseVisualStyleBackColor = true;
@@ -86,10 +85,9 @@
             // 
             this.scoreLabel.AutoSize = true;
             this.scoreLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.scoreLabel.Location = new System.Drawing.Point(11, 9);
-            this.scoreLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.scoreLabel.Location = new System.Drawing.Point(7, 6);
             this.scoreLabel.Name = "scoreLabel";
-            this.scoreLabel.Size = new System.Drawing.Size(55, 20);
+            this.scoreLabel.Size = new System.Drawing.Size(70, 25);
             this.scoreLabel.TabIndex = 2;
             this.scoreLabel.Text = "Score:";
             // 
@@ -97,10 +95,10 @@
             // 
             this.slowBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.slowBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.slowBtn.Location = new System.Drawing.Point(315, 5);
-            this.slowBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.slowBtn.Location = new System.Drawing.Point(297, 3);
+            this.slowBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.slowBtn.Name = "slowBtn";
-            this.slowBtn.Size = new System.Drawing.Size(51, 28);
+            this.slowBtn.Size = new System.Drawing.Size(68, 30);
             this.slowBtn.TabIndex = 5;
             this.slowBtn.Text = "Slow";
             this.slowBtn.UseVisualStyleBackColor = true;
@@ -110,10 +108,10 @@
             // 
             this.medBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.medBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.medBtn.Location = new System.Drawing.Point(370, 5);
-            this.medBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.medBtn.Location = new System.Drawing.Point(371, 3);
+            this.medBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.medBtn.Name = "medBtn";
-            this.medBtn.Size = new System.Drawing.Size(62, 28);
+            this.medBtn.Size = new System.Drawing.Size(83, 30);
             this.medBtn.TabIndex = 6;
             this.medBtn.Text = "Med";
             this.medBtn.UseVisualStyleBackColor = true;
@@ -123,10 +121,10 @@
             // 
             this.fastBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.fastBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.fastBtn.Location = new System.Drawing.Point(436, 5);
-            this.fastBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.fastBtn.Location = new System.Drawing.Point(460, 3);
+            this.fastBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.fastBtn.Name = "fastBtn";
-            this.fastBtn.Size = new System.Drawing.Size(62, 28);
+            this.fastBtn.Size = new System.Drawing.Size(83, 30);
             this.fastBtn.TabIndex = 7;
             this.fastBtn.Text = "Fast";
             this.fastBtn.UseVisualStyleBackColor = true;
@@ -136,10 +134,10 @@
             // 
             this.playerSnakeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.playerSnakeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.playerSnakeBtn.Location = new System.Drawing.Point(174, 5);
-            this.playerSnakeBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.playerSnakeBtn.Location = new System.Drawing.Point(144, 3);
+            this.playerSnakeBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.playerSnakeBtn.Name = "playerSnakeBtn";
-            this.playerSnakeBtn.Size = new System.Drawing.Size(117, 28);
+            this.playerSnakeBtn.Size = new System.Drawing.Size(135, 30);
             this.playerSnakeBtn.TabIndex = 8;
             this.playerSnakeBtn.Text = "Player ON/OFF";
             this.playerSnakeBtn.UseVisualStyleBackColor = true;
@@ -147,9 +145,9 @@
             // 
             // Window
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(734, 711);
+            this.ClientSize = new System.Drawing.Size(979, 875);
             this.Controls.Add(this.playerSnakeBtn);
             this.Controls.Add(this.fastBtn);
             this.Controls.Add(this.medBtn);
@@ -161,7 +159,7 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "Window";
             this.Text = "Snake";
